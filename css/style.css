@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@400&display=swap');
+HEADER{
+    background-color:darkmagenta;
+    height: 14vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(251, 159, 46);
+    font-family: 'Noto Serif Georgian', serif;
+    font-size:large;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+     background-image:url(/img/BACKGROUND.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed; 
+    overflow-wrap:break-word ;
+    
+
+}
+
+.fimg{
+     position:relative;
+     width: 600px;
+     left:500px;
+    }
+    .SANG{
+        background :url("/img/career.png");    
+        background-repeat: repeat;  
+        background-size:150px 150px ;
+    }
+    .YES{
+        background-color: rgb(139, 97, 179);
+        height: 24PX;
+        color: beige;
+        display: flex;
+        justify-content: center;
+
+    }
+    form.search{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color:rgb(237, 237, 105);
+        /* height: 20vh; */
+       gap:10px;
+       /* border: 8mm ridge rgba(216, 216, 93, 0.5); */
+       border: 1rem dashed rgb(219, 89, 89);
+    }
+    .ab{
+        height:26px;
+        width:166px;
+        border-radius: 2px 5px 2px 2px;
+        padding: 2px 20px 2px 20px;
+        letter-spacing: 1px;
+        background-color: white;
+        border: 2px; black;
+        
+    }
+    h3.A{
+        color: rgb(233, 41, 41);
+        font-size: larger;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+#table1 ,th,td{
+   
+    
+}
+    
+    #table1 THEAD{
+        background-color: rgb(139, 97, 179);
+        height: 34PX;
+        color: beige;
+        display: flex;
+        justify-content: center;
+        font-size:xx-large;
+        text-transform:capitalize;
+        padding: 12PX 12PX 18PX 12PX;
+
+    }
+    #table1 tbody{
+        font-size: x-large;
+        font-weight: 400;
+        background-color: rgb(236, 236, 167);
+        color: crimson;
+    }
+    tr.po:hover{
+        color:rgb(37, 182, 234); 
+     cursor: pointer;
+     transition: .4s;
+
+
+    }
+    h3.head{
+        height:50px;
+        background-color: rgb(65, 180, 65);
+        color: rgb(230, 163, 138);
+        width:400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+    }
+    .pj1{
+        font-size: 22px;
+        letter-spacing: 2px;
+        margin: 10px 5px 0 0;
+        background-color:rgb(89, 201, 242); 
+        height:34px ;
+        padding: 5px;
+        width: 650px;
+        color: rgb(30, 38, 148);
+    }
+    .ss{
+        background-color: rgb(223, 142, 112);
+        list-style-position: inside;
+        height: 300px;
+        font-size: 19PX;
+        color:rgb(150, 35, 35);
+         padding: 10px;
+        list-style: none;
+        margin: 0 415px 5px 0px;
+    }
+    b{
+        font-family: 'Noto Serif Georgian', serif;
+        font-size: 21px;
+        padding: 20px;
+        letter-spacing: 1px;
+        word-spacing: 3px;
+
+    }
+    .lv{
+       padding: 10px;
+        position: relative;
+         left: 180px;}
+         
+         iframe{
+            border-radius: 35px;
+         }
+         .pj2{
+            font-size: 22px;
+        letter-spacing: 2px;
+        margin: 10px 5px 1px 0;
+        height:34px ;
+        padding: 8px;
+        width: 350px;
+        background-color: rgb(105, 159, 160);
+        color: darkslategray;
+
+         }
+         .ss1{
+            background-color: rgb(223, 146, 204);
+            list-style-position: inside;
+            height: 250px;
+            font-size: 21PX;
+            color:rgb(171, 37, 90);
+             padding: 10px;
+            list-style: none;
+            margin: 8PX 815px 5px 0px;
+        }
+         a.c{
+            font-family: 'Noto Serif Georgian', serif;
+        font-size: 22px;
+        display: flex;
+        padding:  12px 20px 20px 20px;
+        letter-spacing: 1px;
+        word-spacing: 4px;
+        text-decoration: none;
+         }
+         a.c:hover{
+            cursor: pointer;
+            color: rgb(15, 88, 206);
+
+         }
+         .ss2{
+            background-color: rgb(223, 146, 204);
+            height: 80px;
+            margin: 5px 90px 0 0;
+            padding: 15px 5px 5px 40px;
+            font-size:23px;
+            color: darkmagenta;
+        
+    
+         }
+         .link{
+            text-decoration: none;
+         }
+        
+         ol.pj3{
+            margin-top: 0;
+            height: 560px;
+            list-style-position: inside;
+            
+         }
+         ol.pj5{
+            margin-top: 0;
+            height: 460px;
+            list-style-position: inside;
+        }
+         .pj4{
+
+            margin: 10px;
+            padding: 10px;
+         }
+         
+        ul.xx{
+            list-style: none;
+        }
+         .uv{
+            margin: 5px;
+            padding: 10PX;
+            position: relative;
+            left: 12PX;
+         }
+
+   .table2 ,.table2 th,.table2 td{ 
+  background-color: rgb(154, 238, 235);
+  border-collapse: collapse;
+  margin-top: 6px;
+  border: 2px dashed darkred;
+    
+  }
+
+  
+  .table2,td{
+    padding: 15px;
+
+  }
+  
+
+  
+  .table2 th{
+    padding: 12px;
+    color: darkred;
+    font-weight: 900;
+    font-size:x-large;
+  }
+
+  .table2 tbody{
+    color: darkred;
+    
+  }
+  b.as{
+    font-size: 17px;
+
+  }
+  .hobby{
+    position: relative;
+    left: 200PX;
+    list-style-position: inside ;
+    width: 800PX;
+    bottom: 41PX;
+  }
+  h3.hob{
+    border-radius:10px 10px 10px 10px;
+    
+    width: 580px;
+    
+
+  }
+  article.int{
+    height: 260px;
+    width: 680px;
+    background-color: rgb(233, 128, 184);
+    border: rgb(236, 236, 29);
+    border-radius:40px 40px 40px 40px;
+    padding: 20px;
+    color:rgb(240, 220, 110);
+    font-size: large;
+  }
+  img.flower{
+    position: relative;
+    height: 40px;
+    left: 67%;
+    top: 250px;
+
+  }
+  img.flower1{
+    position: relative;
+    height: 40px;
+    left: 70%;
+    top: 200px;
+  } 
+
+a#ar{
+    position: relative; 
+    color: rgb(233, 128, 184);
+    left:80px;
+    padding: 8px 8px 4px 8px;
+    font-size:x-large;
+    font-weight:500;
+    border-radius: 7px 7px;
+    text-decoration: none;
+    background-color:rgb(240, 220, 110);
+    animation: light 01s infinite ;
+
+
+}
+@keyframes light{
+    from{
+    background-color:rgb(240, 220, 110);
+    color: rgb(233, 128, 184);
+}to{
+    background-color:rgb(233, 128, 184);
+    color :rgb(240, 220, 110);
+}}
+.yey{
+    background-color:rgb(123, 126, 126);
+    height: 280px;
+    width: 600px;
+    font-size: 20px;
+    word-spacing: 2px;
+    padding: 20px;
+  color: white;
+}
+A.LINK{
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    border: 2px;
+    padding: 4px;
+}
+A.LINK:hover{
+    text-decoration: underline;
+}
+.art{
+   position:sticky;
+   left: 100%;
+   bottom:0;
+   height: 200PX;
+   width:200PX ;
+   background-color: rgb(139, 97, 179);
+   color: white;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   font-size: 30px;
+   border: 4px solid white;
+}
+p.ae{
+    margin: 12px 20px 20px 20px;
+}
+.signup{
+    height: 45px;
+    width: 80px;
+    background-color: rgb(139, 97, 179);
+  color: white;
+  font-family: cursive;
+  border-radius: 100%;
+  border:2px solid;
+}
+footer{
+    background-color:darkmagenta;
+    height: 14vh;
+    color:rgb(251, 159, 46);
+    font-family: 'Noto Serif Georgian', serif;
+    font-size:large;}
+    .bf{
+margin: 25px 0 0 0;
+background-color:rgb(251, 159, 46) ;
+width: 400px;
+height: 20px;
+border:4px solid rgb(255, 81, 0);
+border-radius: 200px;
+padding: 5px 15px 3px 15px;
+color:darkred ;
+font-stretch: expanded;
+font-size: large ;
+  }
+  span.end{
+    
+position: absolute;
+top:5630PX; 
+right: 10PX;
+    color: rgb(251, 159, 46);;
+    font-size: small;
+
+  }
+  .deta{
+    height: fit-content;
+    width:150px;
+    list-style: none;
+    
+  }
